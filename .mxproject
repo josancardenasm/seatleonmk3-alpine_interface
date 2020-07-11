@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=C:/Users/Jacar/Desktop/interfaz coche/Inc
+HeaderPath=C:/Users/Jacar/Desktop/interfaz_coche/Inc
 HeaderFiles=stm32f1xx_it.h;stm32f1xx_hal_conf.h;main.h;
-SourcePath=C:/Users/Jacar/Desktop/interfaz coche/Src
+SourcePath=C:/Users/Jacar/Desktop/interfaz_coche/Src
 SourceFiles=stm32f1xx_it.c;stm32f1xx_hal_msp.c;main.c;
 
 [PreviousLibFiles]
