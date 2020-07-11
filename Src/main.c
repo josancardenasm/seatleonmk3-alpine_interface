@@ -69,6 +69,8 @@ static void MX_USART2_UART_Init(void);
 
 /* USER CODE END 0 */
 
+char *msg="HolaMundo2\r\n";
+
 /**
   * @brief  The application entry point.
   * @retval int
@@ -112,7 +114,7 @@ int main(void)
   {
     /* USER CODE END WHILE */
 
-    HAL_UART_Transmit(&huart2,(uint8_t *) "HolaMundo", strlen("HolaMundo"),100);
+    HAL_UART_Transmit(&huart2,(uint8_t *) msg, strlen(msg),100);
 
     /* USER CODE BEGIN 3 */
   }
